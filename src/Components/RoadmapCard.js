@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./roadmapcard.css"
 function RoadmapCard(props){
   return(
     <div className="roadmap-card">

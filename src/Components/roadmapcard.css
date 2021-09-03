@@ -1,0 +1,22 @@
+.wrapper{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.roadmap-block{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3rem;
+  justify-content: space-around;
+
+}
+
+.roadmap-card{
+  text-align: left;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: 10px 10px 19px 0 hsla(0, 0%, 20%, 0.2);
+}

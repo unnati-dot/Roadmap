@@ -1,17 +1,26 @@
 import React from "react"
-
+import "./homepage.css"
 import RoadmapCard from "./../Components/RoadmapCard"
 
 function Homepage(){
   return(
-    <main className="home">
+    <>
       <section className="hero wrapper">
-        <h1>Share your Learning Technique</h1>
+        <heading>Share your Learning Technique</heading>
         <p>Tell your journey and see what others have to face on there learning patch</p>
         <span>START TODAY</span>
+        <div className="buttons">
+          <button>Read</button>
+          <button>Create</button>
+
+        </div>
       </section>
-      <section>
-        <h1>Take a peek on different Roadmaps</h1>
+
+
+    
+    <div className="about" id="#roadmap">
+   <h1>Take a peek on different Roadmaps</h1>
+   <br/>
         <div className="roadmap-block  wrapper">
           <RoadmapCard>Frontend</RoadmapCard>
           <RoadmapCard>Backend</RoadmapCard>
@@ -20,8 +29,9 @@ function Homepage(){
           <RoadmapCard>Cyber Security</RoadmapCard>
           <RoadmapCard>Android</RoadmapCard>
         </div>
-      </section>
-    </main>
+
+    </div>
+    </>
   )
 }
 
