@@ -2,8 +2,9 @@ import React from "react"
 import {Switch, Route} from "react-router-dom"
 
 import Homepage from "./Pages/Homepage";
-import Header from "./Components/Header"
+import Header from "./Components/Header.js"
 import Login from "./Pages/Login"
+
 import "./styles.css";
 
 export default function App() {
@@ -14,7 +15,6 @@ export default function App() {
         <Route  path="/" component={Homepage} exact/>
         <Route path="/signup" component={Login}/>
         <Route path="/login" component={Homepage}/>
-
       </Switch>
     </div>
   );

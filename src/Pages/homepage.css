@@ -3,34 +3,41 @@
 }
 
 .hero{
-  position: absolute;
-  top: 15rem;
-  left: 6rem;
-  text-align: left;
-}
-.about{
-  margin-top: 40rem;
-}
-h1{
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 2px;
-  position: absolute;
-  top: 37rem;
-  left: 19rem;
-}
-.wrapper{
-  width: 80%;
-  margin: 20rem;
-  text-align: center;
-}
-heading{
-  font-size: 3rem;
-  font-style: bold;
+  margin: 10rem auto 2rem;
 }
 
-.buttons{
- justify-content: space-between;
+.hero heading{
+  font-size: 3rem;
+  font-style: 900;
 }
-button{
-  margin-right: 5px;
+
+
+.about{
+  margin: 8rem auto 4rem;
+}
+
+.about h1{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+.wrapper{
+  width: 80%;
+  text-align: center;
+}
+
+
+.buttons{
+  margin: 2rem auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.roadmap-block{
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3rem;
+  justify-content: space-around;
 }
