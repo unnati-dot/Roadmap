@@ -5,7 +5,7 @@ export default function Homepage() {
     <div className="Main">
       <div className="sign">
         <b>Login</b>
-        <hr className="HR" />
+        <hr className="hr" />
         <h4>Username :</h4>
         <input />
 

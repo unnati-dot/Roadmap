@@ -1,20 +1,5 @@
-.wrapper{
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-
-
-.roadmap-block{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 3rem;
-  justify-content: space-around;
-
-}
-
 .roadmap-card{
+  border-radius: .8rem;
   text-align: left;
   max-width: 300px;
   padding: 1rem;

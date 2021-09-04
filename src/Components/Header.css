@@ -6,36 +6,36 @@
 
 
 
-.links{
-	margin: 20px;
-    margin-left: 60%;
-	
-}
-
 .header{
-    display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 26px;
+  font-weight: 5px;
+  margin-left: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.links{
 
 }
 
-.head2{
-
-    font-size: 26px;
-    font-weight: 5px;
-    margin-left: 20px;
-    margin-top: 6px;
-    cursor: pointer;
+.links span{
+   color: #687980;
+   font-weight: bold;
 }
 
+.links span+span{
+  margin-left: calc(2rem + 1vw);
+}
 
- span{
-     
-     margin-right: 25px;
-	color: #687980;
-     
-       
-      }
-
-span:hover{
+.links span:hover{
 	cursor: pointer;
 	text-decoration: underline;
 	color: #393E46;
@@ -44,17 +44,13 @@ span:hover{
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
-   
-
-
-  

@@ -19,29 +19,14 @@ if(value===1 || value==0){
 },[value,history])
 
   return (
-    <div className="header">
-<div>
-    <p  className="head2" >
-Roadmaps
-</p>
-</div>
-    <div className="links">
-    
-    
-     <span onClick={()=>{setValue(1)}}>Home
-
-     </span>
-     <span onClick={()=>{setValue(2)}}>SignUp
-
-     </span>
-     <span onClick={()=>{setValue(3)}}>Login
-
-     </span>
-     <span>ContactUs
-
-     </span>
-</div>      
-    
-    </div>
+    <header className="header">
+        <p  className="logo" >Roadmaps</p>
+        <nav className="links">
+           <span onClick={()=>{setValue(1)}}>Home</span>
+        
+           <span onClick={()=>{setValue(3)}}>Login </span>
+           <span>ContactUs</span>
+        </nav>
+    </header>
   )
 }
