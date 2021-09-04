@@ -1,4 +1,6 @@
 import React from "react"
+import {Link} from "react-router-dom"
+
 import "./homepage.css"
 import RoadmapCard from "./../Components/RoadmapCard"
 
@@ -15,14 +17,14 @@ function Homepage(){
         </div>
       </section>
       <div className="about wrapper" id="#roadmap">
-        <h1>Take a peek on different Roadmaps</h1>
+        <h1>Take a peek on different <Link to="/roadmap" >Roadmaps</Link></h1>
         <div className="roadmap-block">
-          <RoadmapCard>Frontend</RoadmapCard>
-          <RoadmapCard>Backend</RoadmapCard>
-          <RoadmapCard>React</RoadmapCard>
-          <RoadmapCard>Devops</RoadmapCard>
-          <RoadmapCard>Cyber Security</RoadmapCard>
-          <RoadmapCard>Android</RoadmapCard>
+          <Link to="/roadmap/frontend"><RoadmapCard>Frontend</RoadmapCard></Link>
+          <Link to="/roadmap/backend"><RoadmapCard>Backend</RoadmapCard></Link>
+          <Link to="/roadmap/react"><RoadmapCard>React</RoadmapCard></Link>
+          <Link to="/roadmap/devops"><RoadmapCard>Devops</RoadmapCard></Link>
+          <Link to="/roadmap/cyber-security"><RoadmapCard>Cyber Security</RoadmapCard></Link>
+          <Link to="/roadmap/android"><RoadmapCard>Android</RoadmapCard></Link>
         </div>
       </div>
     </>
