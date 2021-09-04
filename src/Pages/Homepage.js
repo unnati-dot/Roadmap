@@ -1,11 +1,11 @@
 import React from "react"
 import "./homepage.css"
 import RoadmapCard from "./../Components/RoadmapCard"
-
+import Header from "../Components/header.js"
 function Homepage(){
   return(
     <>
-
+  <Header />
       <section className="hero wrapper">
         <heading>Share your Learning Technique</heading>
         <p>Tell your journey and see what others have to face on there learning patch</p>
@@ -26,13 +26,6 @@ function Homepage(){
           <RoadmapCard>Android</RoadmapCard>
         </div>
       </div>
-
-     
-
-
-
-
-</body>
     </>
   )
 }
