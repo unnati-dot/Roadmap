@@ -1,25 +1,25 @@
 import React from "react"
 import {Switch, Route} from "react-router-dom"
-
-import Header from "./Components/Header.js"
-
 import Homepage from "./Pages/Homepage";
-import Roadmap from "./Pages/Roadmap";
-import RoadmapDetail from "./Pages/RoadmapDetail";
-import Login from "./Pages/Login"
 
+import Login from "./Pages/Login"
+import Signup from "./Pages/Signup"
+import Newlogin from "./newloginusingsawo/Newlogin"
+import RoadmapDetail from "./Pages/Roadmapdetail"
 import "./styles.css";
 
 export default function App() {
+  require('dotenv').config()
   return (
     <div className="App">
-      <Header />
+
+
+
       <Switch>
-        <Route path="/" component={Homepage} exact/>
-        <Route path="/signup" component={Login}/>
-        <Route path="/login" component={Homepage}/>
-        <Route exact path="/roadmap" component={Roadmap}/>
-        <Route exact path="/roadmap/:topic" component={RoadmapDetail}/>
+        <Route  path="/" component={Homepage} exact/>
+        <Route path="/login" component={Newlogin}/>
+        {/*<Route path="/login" component={Login}/>*/}
+          <Route path="/frontend" component={RoadmapDetail}/>
       </Switch>
     </div>
   );

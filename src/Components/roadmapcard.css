@@ -3,5 +3,6 @@
   text-align: left;
   max-width: 300px;
   padding: 1rem;
-  box-shadow: 5px 5px 10px 0 hsla(0, 0%, 10%, 0.12);
+  box-shadow: 10px 10px 19px 0 hsla(0, 0%, 20%, 0.2);
+  cursor: pointer;
 }

@@ -9,5 +9,5 @@ function Roadmap(){
 export default  Roadmap
 
 /*
-this will fetch data from backend and display all the roadmaps roadmap 
+ this will fetch data from backend and display all the roadmaps roadmap
 */

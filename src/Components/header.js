@@ -23,7 +23,7 @@ if(value===1 || value==0){
         <p  className="logo" >Roadmaps</p>
         <nav className="links">
            <span onClick={()=>{setValue(1)}}>Home</span>
-           <span onClick={()=>{setValue(2)}}>SignUp</span>
+
            <span onClick={()=>{setValue(3)}}>Login </span>
            <span>ContactUs</span>
         </nav>
