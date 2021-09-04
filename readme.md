@@ -14,8 +14,8 @@ their stories, their paths that they have taken to learn new tech stacks.
   - [Author](#author)
 
 ## Overview and features
-Our projected is based upon themes education and community.
-It will help people to build community along there way of learning.
+Our project is based upon themes education and community.
+It will help people to build community along their way of learning.
 
 > Our project will provide a platform to people where they can share what they are learning or have learned in the form of roadmaps, which other people can view and also rate it on the basis of how helpful is that for them.
 
