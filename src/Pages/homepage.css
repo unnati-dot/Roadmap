@@ -6,7 +6,7 @@
   margin: 10rem auto 2rem;
 }
 
-.hero heading{
+.hero h1{
   font-size: 3rem;
   font-style: 900;
 }
@@ -26,12 +26,18 @@
   text-align: center;
 }
 
-
 .buttons{
   margin: 2rem auto;
   max-width: 400px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.buttons button{
+  display: inline-block;
+  padding: .5rem 2rem;
+  border-radius: 1.25rem;
 }
 
 .roadmap-block{

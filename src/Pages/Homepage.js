@@ -3,13 +3,12 @@ import {Link} from "react-router-dom"
 
 import "./homepage.css"
 import RoadmapCard from "./../Components/RoadmapCard"
-import Header from "../Components/header.js"
+
 function Homepage(){
   return(
     <>
-  <Header />
       <section className="hero wrapper">
-        <heading>Share your Learning Technique</heading>
+        <h1>Share your Learning Technique</h1>
         <p>Tell your journey and see what others have to face on there learning patch</p>
         <span>START TODAY</span>
         <div className="buttons">
